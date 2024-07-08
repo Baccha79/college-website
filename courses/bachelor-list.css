@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+    font-family: 'Itim', cursive;
+
+}
+.header{
+    width: 100%;
+    height: 20vh;
+    /* background: linear-gradient(rgba(4,9,36,0.7),rgba(4,9,36,0.7)),url(images/gaya\ college.jpg); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+.header nav ul{
+    /* flex: 1; */
+    list-style: none;
+
+
+}
+.header nav li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+.header nav li a{
+    text-decoration: none;
+    color: #000000;
+    /* padding: 10px 30px; */
+    font-size: 13px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+nav img{
+    width: 140px;
+    cursor: pointer;
+
+}
+.header nav li::after{
+    content: "";
+    display: block;
+   background: #f44336;
+   width: 0%;
+   height: 2px;
+   margin: auto;
+   transition: 0.5s;
+}
+.header nav li:hover::after{
+ width: 100%;
+}
+section.course-list{
+    /* display: flex; */
+    color: #000000;
+    padding: 20%;
+
+}
+.paddingooo{
+    padding: 2%;
+}
+.program-list{
+    margin: 10px;
+}
+    
